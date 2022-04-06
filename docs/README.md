@@ -1,4 +1,4 @@
-# 笔记目录
+# Notes Directory
 
 ### [1、Vue 脚手架基础知识整理](https://note.longdada.me/vue-cli.html)
 
