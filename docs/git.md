@@ -1,6 +1,6 @@
 # Git 常用命令整理
 
-### 项目上传至远程目录
+### 一、项目上传至远程目录
 
 如果你的代码没有使用 Git 跟踪，执行：
 
@@ -20,7 +20,7 @@ git remote set-url origin git@xxx.git
 git push -u origin master
 ```
 
-## ssh key 生成
+## 二、ssh key 生成
 
 **1.设置 Git 的 user name 和 email**
 
@@ -42,7 +42,7 @@ cd ~/.ssh
 ssh-keygen -t rsa -C "lxmnet" # 执行后按3个回车
 ```
 
-## 版本回退
+## 三、版本回退
 
 ```shell
 # 本地回退
@@ -51,7 +51,7 @@ git reset --hard commit_id
 git push origin HEAD --force
 ```
 
-## 与远程仓库的交互
+## 四、与远程仓库的交互
 
 ```shell
 # 查看远程库的一些信息，及与本地分支的信息
