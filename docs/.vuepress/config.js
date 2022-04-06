@@ -1,7 +1,7 @@
 module.exports = {
   // 站点配置
   lang: 'zh-CN',
-  title: 'Note of Longdada',
+  title: 'Notes of Longdada',
   head: [['link', { rel: 'icon', href: 'https://longdada.me/favicon.ico' }]],
   // 主题和它的配置
   theme: '@vuepress/theme-default',
